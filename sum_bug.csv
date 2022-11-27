@@ -1,0 +1,67 @@
+name,parent,value
+Origin,,
+Albuquerque,Origin,1722
+Arlington,Origin,542
+Atlanta,Origin,6249
+Aurora,Origin,594
+Austin,Origin,1456
+Baltimore,Origin,11743
+Boston,Origin,3043
+Buffalo,Origin,2039
+Charlotte,Origin,2742
+Chicago,Origin,27727
+Cincinnati,Origin,2057
+Cleveland,Origin,5284
+Columbus,Origin,3341
+Dallas,Origin,10148
+Denver,Origin,2616
+Detroit,Origin,19497
+El Paso,Origin,1075
+Fairfax,Origin,592
+Fort Worth,Origin,3645
+Fresno,Origin,1904
+Honolulu,Origin,1210
+Houston,Origin,15179
+Indianapolis,Origin,3850
+Jacksonville,Origin,3918
+Kansas City,Origin,4560
+Las Vegas,Origin,4004
+Long Beach,Origin,2456
+Los Angeles,Origin,32269
+Memphis,Origin,5667
+Mesa,Origin,512
+Miami,Origin,4324
+Miami-Dade,Origin,5409
+Milwaukee,Origin,4053
+Minneapolis,Origin,1831
+Montgomery,Origin,732
+Nashville,Origin,3149
+Nassau,Origin,703
+New Orleans,Origin,9149
+New York,Origin,46824
+Newark,Origin,3900
+Oakland,Origin,4390
+Oklahoma City,Origin,2553
+Omaha,Origin,1205
+Orlando,Origin,851
+Philadelphia,Origin,14310
+Phoenix,Origin,5688
+Pittsburgh,Origin,2005
+Portland,Origin,1395
+Prince George's County,Origin,3386
+Raleigh,Origin,705
+Sacramento,Origin,1920
+Salt Lake City,Origin,562
+San Antonio,Origin,5420
+San Diego,Origin,3112
+San Francisco,Origin,3535
+San Jose,Origin,1483
+Seattle,Origin,1637
+St. Louis,Origin,6779
+Suffolk,Origin,1234
+Tampa,Origin,1669
+Tucson,Origin,1588
+Tulsa,Origin,1682
+Virginia Beach,Origin,660
+"Washington, D.C.",Origin,9727
+Wichita,Origin,1071
