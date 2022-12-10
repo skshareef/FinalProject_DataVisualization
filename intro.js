@@ -6,10 +6,10 @@ function(data)
     console.log(data);
 
     var dimensions = {
-            width: 1100,
-            height: 600,
+            width: 1200,
+            height: 400,
             margin:{
-                top: 20,
+                top: 10,
                 bottom: 21,
                 right: 10,
                 left: 90
@@ -237,40 +237,7 @@ d3.select("#Aggressive_sum").on('click', function(){
 
 //button 5
 
-d3.select("#Violentcrime_sum").on('click', function(){
-                   nameSelected = "Violentcrime_sum"
-                     name_html="Voilent crimes"
-                    var clip = SVG.append("defs").append("SVG:clipPath")
-                       .attr("id", "clip")
-                       .append("SVG:rect")
-                       .attr("width", dimensions.width )
-                       .attr("height", dimensions.height )
-                       .attr("x", 0)
-                       .attr("y", 0);
 
-                   // Create the scatter variable: where both the circles and the brush take place
-                   var scatter = SVG.append('g')
-                     .attr("clip-path", "url(#clip)")
-
-                    var max = d3.max(data, function(d) { return d.Burgalary_sum; });
-                    console.log(max);
-
-                    var y = d3.scaleLinear()
-                      .domain([0, 950000])
-                      .range([ dimensions.boundedHeight, 0]);
-
-                var yAxis = d3.axisLeft(y)
-
-                changing_axis.transition()
-                .call(yAxis)
-
-                dots.transition()
-                    .attr("cx", function (d) { return x(d.year); } )
-                    .attr("cy", function (d) { return y(d[nameSelected]); } )
-                    .attr("r", 8)
-                    .style("fill", "#3B3486")
-                    .style("opacity", 1.5)
-})
 
 //button 5 end
 })
